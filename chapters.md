@@ -1,7 +1,7 @@
-```
+---
 layout: page
 title: Chapters
-```
+---
 
 # Project Chapters
 
