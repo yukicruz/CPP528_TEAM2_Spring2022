@@ -10,3 +10,4 @@ title: Table of Contents
   - [Chapter 2: Descriptive Analysis](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/b56bbb52e18587d44f4bfbaa83a90c788e85b895/labs/wk03/Lab-03.html)
   - [Chapter 3: Predicting MHV Change](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/28a17f36bf15cb56de4a9d9c9d313d5cf451a251/labs/wk04/Lab-04-Johaningsmeir.html)
 - Part II: Evaluation of Tax Credits:
+  - [Chapter 4: Modeling the Intervention](https://www.google.com/)
