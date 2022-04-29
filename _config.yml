@@ -37,7 +37,4 @@ plugins:
  - jekyll-paginate
  - jekyll-default-layout
 
-# theme: jekyll-theme-architect
-
 theme: jekyll-theme-architect
-
