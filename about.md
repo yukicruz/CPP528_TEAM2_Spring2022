@@ -20,9 +20,8 @@ team:
 
 ---
 
-## Meet the team
+## Team 2
 
-These people worked together to create this website.
 
 {% include list-circles.html items=page.team %}
 
