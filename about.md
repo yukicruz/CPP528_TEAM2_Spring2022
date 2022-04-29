@@ -20,7 +20,7 @@ team:
 
 ---
 
-## Team 2
+#### Meet Team 2!
 
 
 {% include list-circles.html items=page.team %}
