@@ -3,11 +3,11 @@ title: About Us
 team:
   - name: Caitlyn McCullers
     img: ../assets/images/cait.PNG
-    desc: write here…
+    desc: Caitlyn McCullers is currently pursuing her master's in Program Evaluation and Data Analytics. She is a data manager for ASU's project TEAS.
     github: https://github.com/ctmccull
   - name: Sarah Johaningsmeir
     img: ../assets/images/IMG_0294.jpg
-    desc: write here…
+    desc: Sarah Johaningsmeir is a student in Arizona State University's Program Evaluation and Data Analytics MS program. She works as a researcher in the Complex Care Program at the Medical College of Wisconsin and Children's Wisconsin.
     github: https://github.com/johaning
   - name: Ahmed Rashwan
     img: ../assets/images/Ahmed radwan-edits.jpg
@@ -15,7 +15,7 @@ team:
     github: https://github.com/AhmedRashwanASU
   - name: Mohamed Said
     img: ../assets/images/mohamed.PNG
-    desc: write here…               
+    desc: Mohamed Said works as Program officer and researcher for SIDRA Institute in Somalia. He is currently pursuing Master in Program Evaluation and Data Analytics at Arizona State University (ASU).             
     github: https://github.com/mbsaid
 
 ---
