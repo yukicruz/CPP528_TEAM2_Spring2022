@@ -1,7 +1,10 @@
----
+--- 
 layout: page
-title: Chapters
+title: "Chapters"
+
 ---
+
+
 
 # Project Chapters
 
