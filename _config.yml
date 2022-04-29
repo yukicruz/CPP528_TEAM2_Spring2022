@@ -1,6 +1,6 @@
 title: "Project CPP 528"
 author: "Caitlyn McCullers, Sarah Johaningsmeir, Ahmed Radwan, Mohamed Said"
-description: "Description"
+description: "This site hosts our final project for CPP 528!"
 
 # Jekyll settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
