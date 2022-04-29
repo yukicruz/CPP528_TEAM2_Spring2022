@@ -1,7 +1,7 @@
 navigation:
-- README.md
-- chapters.md
-- about.md
+  - README.md
+  - chapters.md
+  - about.md
 
 
 theme: jekyll-theme-architect
