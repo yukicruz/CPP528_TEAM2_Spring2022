@@ -29,7 +29,7 @@ comments:                    # embed disqus or isso comments
 #  disqus: "disqus-contrast"
 #  isso: "comments.mysite.org"
 
-remote_theme: niklasbuschmann/contrast
+# remote_theme: niklasbuschmann/contrast
 
 plugins: 
  - jekyll-remote-theme
