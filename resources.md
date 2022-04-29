@@ -10,3 +10,5 @@ subtitle: "Links to helpful resources."
   2) [Replication Instruction](https://google.com)
   
   3) [License Info](https://google.com)
+  
+  4) [Packages Used](renv.lock)
