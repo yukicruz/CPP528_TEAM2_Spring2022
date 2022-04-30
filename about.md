@@ -11,7 +11,7 @@ team:
     github: https://github.com/johaning
   - name: Ahmed Rashwan
     img: ../assets/images/Ahmed radwan-edits.jpg
-    desc: write here…   
+    desc: Ahmed Radwan is pursing his master’s in Program Evaluation and Data Analytics. He works as a data analyst at UnitedHealth Group.  
     github: https://github.com/AhmedRashwanASU
   - name: Mohamed Said
     img: ../assets/images/mohamed.PNG
