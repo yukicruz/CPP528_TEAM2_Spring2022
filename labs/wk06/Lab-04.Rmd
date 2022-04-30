@@ -1,5 +1,5 @@
 ---
-title: "CPP-528 Lab 04"
+title: "CPP-528 Chapter 3"
 author: "Team 2"
 date: '2022-04-10'
 output: html_document
@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+## Introduction
+Chapter 3 shows median home values and how they changed from 2000 to 2010. We show evaluation of the variables we selected as predictors of gentrification and increasing median home value, and regression models using these variables.
 
 ```{r, echo=FALSE, include=FALSE, warning=FALSE}
 
@@ -20,6 +22,7 @@ library( knitr )
 library( pander )
 library( stargazer )
 library( scales )
+library( vtable )
 
 # set randomization seed ----
 set.seed( 1234 )
@@ -44,17 +47,16 @@ import::here("S_TYPE",
 
 ### Summary statistics of Median Home Value in 2000, 2010, and change
 
-```{r, results='asis'}
+```{r, echo=FALSE}
 
-stargazer( df, 
-           type="html", 
-           digits=0, 
-           summary.stat = c("min", "p25","median","mean","p75","max") )
+sumtable( df,
+        digits = 0,
+        add.median = TRUE )
 
 ```
 
 
-### Change in MHV 2000-2010
+### Change in MHV 2000-2010, pct.change
 
 ```{r, echo=FALSE}
 
@@ -63,37 +65,28 @@ summary( pct.change )
 ```
 
 
-### Descriptive statistics of change variables
+<br>
+<br>
 
-```{r, echo=FALSE, results='asis'}
-
-df <- data.frame(df)
-stargazer( df, 
-           type="html", 
-           digits=0, 
-           summary.stat = c("min", "p25","median","mean","p75","max") )
-
-```
-
-# Part 2, Predict MHV Change
+## Part 2, Predict MHV Change
 
 
-## Select at least three census variables that you feel will be good predictors of change in MHV between 2000 and 2010. 
+### Three census variables we selected as good predictors of change in MHV between 2000 and 2010. 
 
 * Percent white residents in 2000 (p.white.00)
 * Percent with 4-year college education or more (p.col.edu.00)
 * Poverty rate in 2000 (pov.rate.00)
 
 
-## Descriptive statistics of change variables
+### Descriptive statistics of change variables
 
 ```{r, results='asis', echo=FALSE}
 
 d3 <- data.frame(d3)
-stargazer( d3, 
-           type="html", 
-           digits=0, 
-           summary.stat = c("min", "p25","median","mean","p75","max") )
+
+sumtable( d3,
+        digits = 0,
+        add.median = TRUE )
 
 ```
 
@@ -263,7 +256,7 @@ stargazer( m1, m2, m3, m4,
 
 ## Part 4 Results
 
-Each of the three variables I chose (percent white residents, percent with college
+Each of the three variables we chose (percent white residents, percent with college
 or greater education level, and poverty rate) did significantly predict change in
 median home values from 2000 to 2010. Controlling for metro area fixed effects, the 
 amount of variance accounted for was approximately equal whether looking at any 
@@ -271,16 +264,16 @@ of these variables alone or in a model including two or three variable--each of
 these models had an Adjusted R2 of 0.29 to 0.31. This is likely because of the strong
 correlations between the variables. 
 
-Model 4 with all three variables included produced an Adjusted R2 of 0.31, 
+Model 4, with all three variables included, produced an Adjusted R2 of 0.31, 
 significant  at the p<0.01 level. Each of these variables had a negative correlation,
 thus a higher percentage of white residents, higher percentage with a college
 education, or higher poverty rate all indicate a smaller change in median home values.
 
-I expected to see these relationships for percent of white and college-educated 
+We had expected to see these relationships for percent of white and college-educated 
 residents, since tracts with these demographics may already be high-priced and not
-eligible for gentrification (and I also expect the converse, that areas with low 
-white and college-educated populations may be ripe for gentrification). However, I
-am surprised to see that poverty rate is also a negative correlation. This may be due 
+eligible for gentrification (as well as the converse, that areas with low 
+white and college-educated populations may be ripe for gentrification). However, we were
+surprised to discover that poverty rate is also a negative correlation. This may be due 
 to multicollinearity, since college education and poverty rate are closely correlated. 
 In Model 2 where college education is not included, poverty rate has a positive
 correlation with median home value change.
