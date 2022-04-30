@@ -1,6 +1,6 @@
 ---
-title: "Lab 02"
-author: "Ahmed Radwan"
+title: "Chapter 1"
+author: "Team 2"
 date: "3/29/2022"
 output: html_document
 ---
@@ -9,9 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Introduction
+Chapter 1 demonstrates how to access the Longitudinal Tract Data Base (LTDB) data dictionary. Three functions provide the ability to filter the large number of LTDB variables to select only those with a certain category title, where the description field contains a specified text string, or from a specific year.
 
-```{r, message=FALSE, warning=FALSE}
 
+```{r, message=FALSE, warning=FALSE }
+
+# load needed packages
 library( tidyverse )
 library( here )
 library( pander )
@@ -35,7 +39,7 @@ dd <- read.csv( DD_FILEPATH, stringsAsFactors=F )
 
 ```{r}
 
-# Function 1 Filter by Category
+# function filters by category
 
 filter_cat <- function( data , search )
   
@@ -49,14 +53,14 @@ filter_cat <- function( data , search )
 
 ```{r}
 
-# Function 1 test
+# test function 1, filtering for category "age"
 
 filter_cat( dd, "age" )
 
 ```
 
 ```{r}
-# Function 2 filter by description text
+# function 2 filters by description text
 
 search_var <- function(string)
 {
@@ -74,7 +78,7 @@ return( dat.sub )
 
 
 ```{r}
-#Function 2 test
+# test function 2, filtering for word "race" in description text
 
 search_var( "race")
 
@@ -84,7 +88,7 @@ search_var( "race")
 
 
 ```{r}
-# Function 3 filter by year
+# function 3 filters by year
 
 filter_year <- function( year )
 {
@@ -99,7 +103,7 @@ filter_year <- function( year )
 
 
 ```{r}
-# Function 3 test
+# test function 3, filtering for year 1970
 
 filter_year( "1970" )
 
