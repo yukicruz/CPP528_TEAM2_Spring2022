@@ -20,6 +20,7 @@ Mohamed Said, https://github.com/mbsaid
 
 **Replication Tips**
 <br>
+<br>
 This project was done in R 4.1.0 and RStudio. GitHub and GitHub Desktop were also used frequently.
 <br>
 <br>
