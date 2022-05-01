@@ -1,5 +1,5 @@
 ---
-title: "CPP 528 Lab 05"
+title: "Chapter 4"
 author: "Team 2"
 date: "4/19/2022"
 output: html_document
@@ -50,15 +50,25 @@ import::here("S_TYPE",
 ## Tax Credit Introduction
 
 ### New Market Tax Credits (NMTC)
-----------add text description here--------
+New Market Tax Credits (NMTC) are a US federal tax credit program intended to 
+promote development in low-income communities. NMTC operate under the theory that
+low-income communities do not attract private investors, which perpetuates the lack
+of services and amenities and deterioration of properties. NMTC are distributed via
+intermediary organizations that provide loans or funding for private businesses in 
+low-income communities, for a share of the 39% tax credit on the initial investment 
+over a seven-year period. This incentivises growth of businesses in these areas, 
+benefiting the community as well as the private investors.
 
 ### Low Income Housing Tax Credits (LIHTC)
------------add text description here-------
+Low Income Housing Tax Credits subsidize the building of affordable rental housing 
+units for low-income residents, identified as those earning 50% to 80% of the median 
+income based on family size. Rents must be no more than 30% of 50-60% of median income,
+and this must be maintained for up to 30 years.
 
 
 ## Visual models comparing Median Home Value Growth by receipt of New Market Tax Credits or Low Income Housing Tax Credits
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE}
 
 gridExtra::grid.arrange( PLOTS$mhv_growth$nmtc,
                          PLOTS$mhv_growth$lihtc,
