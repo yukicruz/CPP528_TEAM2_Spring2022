@@ -8,7 +8,7 @@ title: Executive Summary
 This study sought to examine economic growth in neighborhoods, with an extra focus on Milwaukee, Wisconsin. We also compare two tax credit programs.
 
 ## Data
-The data for this study comes from the Longitudinal Tract Data Base (LTDB). See Chapter 1 for more information about how to access the data dictionary.
+The data for this study comes from the Longitudinal Tract Data Base (LTDB), HUD Low Income Housing Tax Credit (LIHTC) data, and New Market Tax Credit data (NMTC). See Chapter 1 for more information about how to access the data dictionary.
 
 ## Methods
 We ran a regression model predicting change in median home value from 2000 to 2010. The independent variables selected were the percentage of white residents, percent of the population with 4 years of college education or more, and the poverty rate in 2000.
