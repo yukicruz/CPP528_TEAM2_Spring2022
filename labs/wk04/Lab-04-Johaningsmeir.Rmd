@@ -1,6 +1,6 @@
 ---
 title: "CPP-528 Lab 04"
-author: "Sarah Johaningsmeir"
+author: "Team 2"
 date: '2022-04-10'
 output: html_document
 ---
