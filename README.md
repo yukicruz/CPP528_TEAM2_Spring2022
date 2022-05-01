@@ -3,7 +3,7 @@ CPP-528 Spring 2022 Session B
 <br>
 Team 2 Final Project
 
-This project was completed for the Arizona State University course CPP-528, Foundations of Data Science Part III: Project management for data analysts, part of the Program Evaluation and Data Analytics masters program.
+This project was completed for the [Arizona State University](asu.edu) course CPP-528, Foundations of Data Science Part III: Project management for data analysts, part of the [Program Evaluation and Data Analytics masters program](https://ds4ps.org/ms-prog-eval-data-analytics/).
 
 US Census data were used to evaluate the impact of two tax credit programs, New Market Tax Credits and Low Income Housing Tax Credits, using median home values as an indicator of improved neighborhood wellbeing. 
 
