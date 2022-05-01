@@ -21,7 +21,7 @@ Mohamed Said, https://github.com/mbsaid
 **Replication Tips**
 <br>
 <br>
-This project was done in R 4.1.0 and RStudio. GitHub and GitHub Desktop were also used frequently.
+This project was completed using R 4.1.0, RStudio, GitHub, and GitHub Desktop.
 <br>
 <br>
 In this repository, you will find a renv.lock file. Should you want to replicate this study, you will need to run the renv::restore() function to install all packages and their dependencies involved in this project.
@@ -34,8 +34,24 @@ You will find the Census Longitudinal Tabulated Database (LTDB) file here:
 [Cleaned Data](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/tree/main/data/rodeo)
 <br>
 [Codebook](https://watts-college.github.io/cpp-528-spr-2022/data/LTDB-codebook.pdf)
-
-
+<br>
+<br>
+Low Income Housing Tax Credit data files are stored here:
+<br>
+[LIHTC Data Dictionary](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/data/raw/LIHTC%20Data%20Dictionary%202017.pdf)
+<br>
+[LIHTC Raw Data]()
+<br>
+<br>
+New Market Tax Credit data files are stored here:
+,BR>
+[NMTC Data Dictionary](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/data/raw/2019%20NMTC%20Public%20Data%20Release_FY_17.xlsx)
+<br>
+[NMTC_Sheet_1]()
+<br>
+[NMTC Sheet 2]()
+<br>
+<br>
 **Required Packages**
 <br>
 <br>
