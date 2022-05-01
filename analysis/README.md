@@ -9,7 +9,7 @@ This is where you will store the `.rmd` files that make up your "Chapters" that 
 * `YYYY` is a four digit year (i.e. 2022)
 * `MM` is a two digit month (i.e. 05 for May)
 * `DD` is a two digit day (i.e. 02 for the 2nd day)
-* `chXX` references the chapter number (i.e. ch01 is the chapter One)
+* `chXX` references the chapter number (i.e. labs/wk02 is the fisrt chapter One)
 * `short_name` is a placeholder and needs to replaced with something meaningful (i.e. descriptive_statistics)
 
 The title that is displayed back to the user is what you store within the `title: ` section in your YAML header within the `.md` file.
@@ -18,7 +18,7 @@ The title that is displayed back to the user is what you store within the `title
 
 Each `.rmd` file within `analysis/` must have a YAML header that contains an explicit reference to the [GitHub flavored markdown (gfm)](https://github.github.com/gfm/#what-is-github-flavored-markdown-) variant of markdown as the output that the `.rmd` knits out. Said differently, rather than only knitting out an HTML, you need to have your `.rmd` file also knit out an `.md` file.
 
-Upon closer inspection of the YAML header within [`2021-03-014-ch01-example_page.rmd`](2021-03-014-ch01-example_page.rmd) reveals that the file contains two outputs: an HTML document (courtesy of [`rmdformats::downcute()`](https://github.com/juba/rmdformats#rmdformats)) and [`md_document`](https://bookdown.org/yihui/rmarkdown/markdown-document.html).
+Upon closer inspection of the YAML header within [`222-05-02-Chapter 1: Data Wrangling`](2022-05-02-labs/wk02/Lab-02.html) reveals that the file contains two outputs: an HTML document (courtesy of [`rmdformats::downcute()`](https://github.com/juba/rmdformats#rmdformats)) and [`md_document`](https://bookdown.org/yihui/rmarkdown/markdown-document.html).
 
 ```yaml
 ---
