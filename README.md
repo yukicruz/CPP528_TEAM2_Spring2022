@@ -16,3 +16,8 @@ Caitlyn Mccullers, https://github.com/ctmccull
 Ahmed Radwan, https://github.com/radwan-a
 <br>
 Mohamed Said, https://github.com/mbsaid
+
+
+**About This Respository**
+<br>
+In this repository, you will find a renv.lock file. Should you want to replicate this study, you will need to run the renv::restore() function to install all packages and their dependencies involved in this project.
