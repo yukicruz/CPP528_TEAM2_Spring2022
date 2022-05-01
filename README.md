@@ -40,3 +40,9 @@ You will find the Census Longitudinal Tabulated Database (LTDB) file here:
 <br>
 <br>
 To install required packages you can restore packages dependencies from renv.lock file that is located in [renv](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/tree/main/renv) folder. Use the code renv::restore(here::here())
+
+
+**Licensing**
+<br>
+<br>
+The project is licensed under MIT open source license. For more details check [license](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/LICENSE) file.
