@@ -21,7 +21,7 @@ In this model, which does not include any control variables, the *Low Income Hou
 
 Examining longitudinal data from points before and/or after the timeframe in question would provide evidence that the parallel trends assumption is met, that both the treatment and control groups would have changed at the same rate in the absence of the treatment.
 
-# Conclution
+## Conclution
 
 We have developed models to  predict if the New Market Tax Credit (NMTC) program or Low-Income Housing Tax Credit (LIHTC) program had a significant effect on median home value from 2000 to 2010. We have chosen Percent white residents in 2000 Percent with 4-year college education or more  and Poverty rate in 2000 as variables of interest. 
 
