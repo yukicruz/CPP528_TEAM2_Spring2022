@@ -14,10 +14,6 @@ This is where you will store the `.rmd` files that make up your "Chapters" that 
 
 The title that is displayed back to the user is what you store within the `title: ` section in your YAML header within the `.md` file.
 
-![Screenshot of naming convention as user sees it, part 1](../assets/img/screenshots/chapter_name_on_home_page.png)
-
-![Screenshot of naming convention as user sees it, part 2](../assets/img/screenshots/file_name_convention.png)
-
 ### YAML header must include a `gfm` variant of markdown output
 
 Each `.rmd` file within `analysis/` must have a YAML header that contains an explicit reference to the [GitHub flavored markdown (gfm)](https://github.github.com/gfm/#what-is-github-flavored-markdown-) variant of markdown as the output that the `.rmd` knits out. Said differently, rather than only knitting out an HTML, you need to have your `.rmd` file also knit out an `.md` file.
