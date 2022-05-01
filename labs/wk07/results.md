@@ -23,6 +23,6 @@ Examining longitudinal data from points before and/or after the timeframe in que
 
 ## Conclusion
 
-We have developed models to  predict if the New Market Tax Credit (NMTC) program or Low-Income Housing Tax Credit (LIHTC) program had a significant effect on median home value from 2000 to 2010. We have chosen Percent white residents in 2000, Percent with 4-year college education or more  and Poverty rate in 2000 as variables of interest. 
+We have developed models to  predict if the New Market Tax Credit (NMTC) program or Low-Income Housing Tax Credit (LIHTC) program had a significant effect on median home value from 2000 to 2010. We have chosen Percent white residents in 2000, Percent with 4-year college education or more  and Poverty rate in 2000 as  control variables. 
 
 Results shown in the models were different. NMTC had significant effect to the medium home values, there was increase of $7681 . While the LIHTC did not had any impact to the medium home value, the results were same to the tract with no LIHTC program. The variables used made signifiant prediction to the medium home value change for the tracts with NMTC  while LIHTC.
