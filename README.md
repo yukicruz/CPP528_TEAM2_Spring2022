@@ -34,3 +34,9 @@ You will find the Census Longitudinal Tabulated Database (LTDB) file here:
 [Cleaned Data](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/tree/main/data/rodeo)
 <br>
 [Codebook](https://watts-college.github.io/cpp-528-spr-2022/data/LTDB-codebook.pdf)
+
+
+**Required Packages**
+<br>
+<br>
+To install required packages you can restore packages dependencies from renv.lock file that is located in [renv](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/tree/main/renv) folder. Use the code renv::restore(here::here())
