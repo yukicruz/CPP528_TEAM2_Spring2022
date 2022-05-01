@@ -3,13 +3,13 @@
 
 ### 1-raw: 
 
-Raw data lives in this folder, meaning the original data files before any analysis or operations.
+Raw data is stored in this folder, these are the original data files before any analysis or operations.
 
 ### 2-wrangling: 
 
-Processed data lives in this folder, meaning the data after being processed and transfered to the rodeo folder.
+Data files are stored in this folder during processing.
 
 ### 3-rodeo: 
 
-Contains datasets after being processed and cleaned, meaning it is now ready for analysis.
+This folder contains datasets that have been processed and cleaned, meaning they are ready for analysis.
 
