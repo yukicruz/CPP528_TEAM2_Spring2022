@@ -1,4 +1,3 @@
-# Executive Summary
 
 ## Overview/Research Questions and Program Details
 This study sought to examine economic growth in neighborhoods, with an extra focus on Milwaukee, Wisconsin. We also compare two tax credit programs.
