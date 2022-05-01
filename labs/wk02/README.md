@@ -1,3 +1,3 @@
-## Lab-02
+### Lab-02
 
-The end goal of data wrangling is for the data to be clean and easy to use during the analytical stage of the project. For this lab you will add meaningful metadata about the LTDB dataset to a machine-readable concordance file that will be used to greatly improve the usability of the data.
+Lab-02 involved creating a machine-readable concordance file for the LTDB dataset, and writing functions to filter this large dataset based on the metadata.
