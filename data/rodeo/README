@@ -1,1 +1,5 @@
 
+The folder contains the wrangled datasets saved in a format native to R. The files are used in 
+the [`source_file_rn.R`](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/labs/wk06/lab_06_source.R)
+script located in the [`labs`](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/labs)
+folder in the root directory of this repository. 
