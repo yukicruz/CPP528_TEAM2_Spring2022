@@ -26,8 +26,8 @@ In this repository, you will find a renv.lock file. Should you want to replicate
 <br>
 You will find the Census Longitudinal Tabulated Database (LTDB) file here:
 <br>
-[Harmonized Census Data](CPP528_TEAM2_Spring2022/data/raw/)
+[Harmonized Census Data](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/tree/main/data/raw)
 <br>
-[Cleaned Data](CPP528_TEAM2_Spring2022/data/rodeo/)
+[Cleaned Data](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/tree/main/data/rodeo)
 <br>
 [Codebook](https://watts-college.github.io/cpp-528-spr-2022/data/LTDB-codebook.pdf)
