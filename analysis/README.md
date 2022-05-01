@@ -18,7 +18,7 @@ The title that is displayed back to the user is what you store within the `title
 
 Each `.rmd` file within `analysis/` must have a YAML header that contains an explicit reference to the [GitHub flavored markdown (gfm)](https://github.github.com/gfm/#what-is-github-flavored-markdown-) variant of markdown as the output that the `.rmd` knits out. Said differently, rather than only knitting out an HTML, you need to have your `.rmd` file also knit out an `.md` file.
 
-Upon closer inspection of the YAML header within [`222-05-02-Chapter 1: Data Wrangling`](2labs/wk02/Lab-02.html)) reveals that the file contains two outputs: an HTML document (courtesy of [`rmdformats::downcute()`](https://github.com/juba/rmdformats#rmdformats)) and [`md_document`](https://bookdown.org/yihui/rmarkdown/markdown-document.html).
+Upon closer inspection of the YAML header within [`222-05-02-Chapter 1: Data Wrangling`](2labs/wk02/Lab-02.html) reveals that the file contains two outputs: an HTML document (courtesy of [`rmdformats::downcute()`](https://github.com/juba/rmdformats#rmdformats)) and [`md_document`](https://bookdown.org/yihui/rmarkdown/markdown-document.html).
 
 ```yaml
 ---
