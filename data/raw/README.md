@@ -1,2 +1,2 @@
 
-lives in this folder, meaning the original data files before any analysis or operations.
+The original raw data files are stored here. These files can be accessed but raw data is not modified during the wrangling and analysis stages.
