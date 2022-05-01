@@ -25,6 +25,9 @@ This project was done in R 4.1.0 and RStudio. GitHub and GitHub Desktop were als
 In this repository, you will find a renv.lock file. Should you want to replicate this study, you will need to run the renv::restore() function to install all packages and their dependencies involved in this project.
 <br>
 You will find the Census Longitudinal Tabulated Database (LTDB) file here:
+<br>
 [Harmonized Census Data](CPP528_TEAM2_Spring2022/data/raw/)
+<br>
 [Cleaned Data](CPP528_TEAM2_Spring2022/data/rodeo/)
+<br>
 [Codebook](https://watts-college.github.io/cpp-528-spr-2022/data/LTDB-codebook.pdf)
