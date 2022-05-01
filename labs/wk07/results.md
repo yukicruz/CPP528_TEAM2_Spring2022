@@ -9,7 +9,7 @@ title: Results and Conclusion
 
 In this model without any control variables added, New Market Tax Credit investments had a significant effect on median home values, with the value of homes in tracts that received NMTC investments increasing less than those in tracts without NMTC. The median house value was $5892.20 less in 2010 data than would be expected if NMTC investments were not made. However, because NMTC are only allowed in tracts identified because of poverty or low family incomes, this finding seems likely to be the result of confounding variables such as poverty.
 
-## NMTC results with control variables*
+## NMTC results with control variables
 
 We have chosen Variables of interest; Percent white residents in 2000 (p.white.00), Percent with 4-year college education or more (p.col.edu.00) and Poverty rate in 2000 (pov.rate.00) to predict if the New Market Tax Credit investments had a significant effect on median home value. 
 
