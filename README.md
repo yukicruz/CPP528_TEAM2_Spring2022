@@ -27,6 +27,9 @@ This project was completed using R 4.1.0, RStudio, GitHub, and GitHub Desktop.
 In this repository, you will find a renv.lock file. Should you want to replicate this study, you will need to run the renv::restore() function to install all packages and their dependencies involved in this project.
 <br>
 <br>
+**Data Files**
+<br>
+<br>
 You will find the Census Longitudinal Tabulated Database (LTDB) file here:
 <br>
 [Harmonized Census Data](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/tree/main/data/raw)
@@ -36,20 +39,20 @@ You will find the Census Longitudinal Tabulated Database (LTDB) file here:
 [Codebook](https://watts-college.github.io/cpp-528-spr-2022/data/LTDB-codebook.pdf)
 <br>
 <br>
-Low Income Housing Tax Credit data files are stored here:
+Low Income Housing Tax Credit (LIHTC) data files are stored here:
 <br>
 [LIHTC Data Dictionary](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/data/raw/LIHTC%20Data%20Dictionary%202017.pdf)
 <br>
-[LIHTC Raw Data]()
+[LIHTC Raw Data](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/data/raw/LIHTCPUB.csv)
 <br>
 <br>
-New Market Tax Credit data files are stored here:
-,BR>
+New Market Tax Credit (NMTC) data files are stored here:
+<BR>
 [NMTC Data Dictionary](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/data/raw/2019%20NMTC%20Public%20Data%20Release_FY_17.xlsx)
 <br>
-[NMTC_Sheet_1]()
+[NMTC_Sheet_1](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/data/raw/nmtc-sheet-01.csv)
 <br>
-[NMTC Sheet 2]()
+[NMTC Sheet 2](https://github.com/ctmccull/CPP528_TEAM2_Spring2022/blob/main/data/raw/nmtc-sheet-02.csv)
 <br>
 <br>
 **Required Packages**
