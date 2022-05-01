@@ -18,21 +18,3 @@ The title that is displayed back to the user is what you store within the title:
 Each .rmd file within analysis/ must have a YAML header that contains an explicit reference to the GitHub flavored markdown (gfm) variant of markdown as the output that the .rmd knits out. Said differently, rather than only knitting out an HTML, you need to have your .rmd file also knit out an .md file.
 
 Upon closer inspection of the YAML header within 2022-05-02-ch01-example_page.rmd reveals that the file contains two outputs: an HTML document (courtesy of rmdformats::downcute()) and md_document.
-
-
----
-title: "This is an example page"
-subtitle: "The title above can be anything you want. However, the file name must be in this specific format: `YYYY-MM-DD-chXX-short_name.md`."
-author: "Cristian E. Nuno"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
-output:
-  rmdformats::downcute:
-    self_contained: true
-    thumbnails: true
-    lightbox: true
-    gallery: false
-    highlight: tango
-    df_print: paged
-  md_document:
-    variant: gfm
----
