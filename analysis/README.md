@@ -58,11 +58,11 @@ FILE_INFO <- list(
   # note: all .rmd files must live in the analysis/ directory
   "rmd_files" = c(
     # each relative path to your .rmd file lives within one here::here() call
-    here::here("analysis/2021-03-14-ch01-example_page.rmd")
+    here::here("analysis/2022-05-02-ch01-example_page.rmd")
   ),
   "yaml_files" = c(
     # each relative path to your .ymal file lives within one here::here() call
-    here::here("assets/yaml/2021-03-14-ch01-example_page.yaml")
+    here::here("assets/yaml/2022-05-02-ch01-example_page.yaml")
   )
 )
 ```
@@ -100,7 +100,7 @@ Rscript analysis/01_create_md_files.R
 
 Within RStudio, one can also open the [`01_create_md_files.R`](01_create_md_files.R) file, select all, and execute the code. For a guide, [see here](https://support.rstudio.com/hc/en-us/articles/200484448-Editing-and-Executing-Code).
 
-Or, within the [RStudio console](https://support.rstudio.com/hc/en-us/articles/200404846-Working-in-the-Console), you can run the following R code as long as you within your [RStudio Project](https://ds4ps.org/cpp-528-spr-2021/sched/week-02/):
+Or, within the [RStudio console](https://support.rstudio.com/hc/en-us/articles/200404846-Working-in-the-Console), you can run the following R code as long as you within your [RStudio Project](https://ds4ps.org/cpp-528-spr-2022/sched/week-02/):
 
 ```r
 # call the R file that sends your analysis/ .rmd files to the _posts/ directory as .md files
