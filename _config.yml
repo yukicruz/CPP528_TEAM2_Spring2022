@@ -1,6 +1,6 @@
 title: "Project CPP 528"
-author: "Names"
-description: "Description"
+author: "Caitlyn McCullers, Sarah Johaningsmeir, Ahmed Radwan, Mohamed Said"
+description: "This site hosts our final project for CPP 528!"
 
 # Jekyll settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
@@ -16,8 +16,8 @@ minimal_theme: true          # radically minimalistic theme
 
 navigation:                  # show navigation links in the header	
   - index.md  # Landing page with Table of Contents
-  - chapters.md
   - about.md
+  - resources.md
   - README.md
   
 icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
@@ -37,4 +37,20 @@ plugins:
  - jekyll-paginate
  - jekyll-default-layout
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-architect
+
+# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
+#site-css:
+# - "/assets/css/style.scss"
+
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+
+navbar-col: "#373C99"
+navbar-text-col: "#91A7FE"
+navbar-children-col: "#FE9D8D"
+page-col: "#FDECBE"
+link-col: "EB6B78"
+hover-col: "#FE9D8D"
+footer-col: "#F5F5F5"
+footer-text-col: "#373C99"
+footer-link-col: "#91A7FE"

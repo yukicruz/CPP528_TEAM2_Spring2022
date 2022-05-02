@@ -1,1 +1,2 @@
 
+Data files are saved in this folder while being processed. This preserves the original data in the raw folder, and after processing is completed the files are saved to the rodeo folder where they can be used for analyses.
